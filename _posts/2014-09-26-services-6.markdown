@@ -1,0 +1,14 @@
+---
+layout: default
+img: payroll.jpg
+category: Services
+title: Payroll
+description: |
+---
+<ul>
+    <li>Preparation of weekly wage slips</li>
+    <li>Preparation of monthly salary slips</li>
+    <li>Maintaining leave records</li>
+    <li>Submission of </li>
+    <li>IRP5’s</li>
+</ul>
