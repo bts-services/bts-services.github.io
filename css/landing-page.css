@@ -28,8 +28,10 @@ body {
 
 h2 {
     color: #DB912F;
-    font-size: 40px;
+    font-size: 44px;
+    margin-top: 40px;
     margin-bottom: 40px;
+    text-shadow: #000 1px 1px 1px;
 }
 
 h3.first {
@@ -58,6 +60,19 @@ p {
     color: #f8f8f8;
     background: url(../img/home_bg.jpg) no-repeat center center;
     background-size: cover;
+}
+
+#contact {
+    color: #000;
+    background: url(../img/contact_us.jpg) no-repeat center bottom;
+    background-size: cover;
+    height: 700px;
+}
+
+span.heading {
+    color: #000;
+    display: inline-block;
+    width: 100px;
 }
 
 .intro-message {
@@ -256,7 +271,12 @@ button {
 
 #request_quote {
     background: url(../img/home_bg.jpg) no-repeat center center;
-    padding: 50px 0;
+}
+
+#request_quote,
+#about,
+#contact {
+    padding: 0 0 50px;
 }
 
 h2.center_float {
@@ -264,11 +284,6 @@ h2.center_float {
     margin-left: auto;
     margin-right: auto;
     width: 800px;
-}
-
-#about,
-#contact {
-    padding: 50px 0;
 }
 
 #about img,
@@ -306,4 +321,9 @@ a:hover {
 
 #message_result {
     color: #DB912F;
+}
+
+#google_map {
+    height: 300px;
+    width: 400px;
 }
