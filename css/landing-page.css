@@ -303,3 +303,7 @@ a:hover {
     background: url(../img/home_bg.jpg) no-repeat 0 bottom;
     height: 50px;
 }
+
+#message_result {
+    color: #DB912F;
+}
