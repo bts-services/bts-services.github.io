@@ -8,6 +8,8 @@ title_image_alt: Garreth Bloor
 categories: interview
 ---
 
+
+
 Entrepreneurship, we have been told, forms an integral part of our economy. So I asked myself, what
 do we have in place to assist entrepreneurs in the Western Cape?
 
@@ -59,9 +61,7 @@ area vs foot traffic in another and the information will be compiled and sent to
 There is also, at present, an open data committee to ensure that the information does not comprise
 anyone’s rights. We are one of the few open data cities and the first on our continent.
 
-#### There is also mention of providing incentives, such as rate rebates preferential tariff structures
-and coordinated service delivery as a means to assist business growth and job creation, is this
-specifically for owner-managed businesses or are you targeting a specific market?
+#### There is also mention of providing incentives, such as rate rebates preferential tariff structures and coordinated service delivery as a means to assist business growth and job creation, is this specifically for owner-managed businesses or are you targeting a specific market?
 
 This is for everybody but some of those are directed to owner-managed businesses such as rate
 rebates for the property he/she owns.
@@ -86,7 +86,7 @@ internet connection.
 
 #### Based on my experience there is a lack of financial education amongst many entrepreneurs. This is a hidden weakness in one’s business and might only be identified when it is too late. What is being done to improve financial education and training around entrepreneurship?
 
-There is currently no mandate to spend money on education - that is purely national and provincial
+There is currently no mandate to spend money on education - that is purely on a national and provincial
 level, but there are basic courses that one might be able to do.
 
 ### Conclusion
