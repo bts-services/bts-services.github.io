@@ -266,6 +266,7 @@ button {
   box-shadow: 2px 2px 3px rgba(0,0,0,0.6);
   border-radius: 5px;
   color: #000;
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
   padding: 10px;
 }
 
@@ -326,4 +327,215 @@ a:hover {
 #google_map {
   height: 200px;
   width: 300px;
+}
+
+.top-heading {
+  margin-top: 40px;
+}
+
+
+h4 {
+  border: 1px solid #ccc;
+  line-height: 1.5;
+  padding: 5px;
+}
+/******************************************* BLOG POSTS *******************************************/
+
+#posts,
+#post {
+  background-color: #f8f8f8;
+  padding-top: 40px;
+}
+
+#post h2 {
+  margin-bottom: 0;
+}
+
+#posts article {
+  background: #fff;
+  border: 1px solid #ccc;
+  font-family: 'Merriweather', serif;
+  margin: 0 auto;
+}
+
+#posts article img {
+  width: 100%;
+}
+
+#post article p {
+  font-size: 16px;
+}
+
+.post_header {
+  border-bottom: 1px solid #ccc;
+  clear: both;
+  display: block;
+  padding: 20px;
+  width: 100%;
+}
+
+.full_post .post_header {
+  border-bottom: none;
+  padding: 0 20px 20px;
+}
+
+.full_post img {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.post_header i {
+  margin-right: 10px;
+}
+
+.post_header span {
+  color: #ddd;
+  font-size: 0.9em;
+  margin-right: 30px;
+}
+
+.post_header h3 {
+  margin: 0 0 10px;
+}
+
+article .lead {
+  color: #444;
+  font-size: 16px;
+  padding: 20px;
+}
+
+article button {
+  clear: both;
+  display: block;
+  margin-top: 20px;
+}
+
+.links {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.links h3 {
+  color: #999;
+  margin: 0 0 10px;
+}
+
+.links ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.links a {
+  color: #444;
+}
+
+.links a:hover {
+  color: #444;
+  text-decoration: underline;
+}
+
+.full_post q {
+  display: inherit;
+  font-family: 'Merriweather', serif;
+  font-weight: normal;
+  font-size: 1.6em;
+  margin-bottom: 20px;
+  text-indent: -20px;
+}
+
+/**************************************** SHARING OPTIONS ****************************************/
+.share-page {
+    text-align: center;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin: 20px 0 40px;
+
+    a {
+        font-weight: 700;
+        color: #fff;
+        margin-left: 10px;
+
+        &:hover {
+            border-bottom: 1px dashed #fff;
+        }
+    }
+}
+
+.share-icons span {
+    filter: grayscale(100%); /* Current draft standard */
+    -webkit-filter: grayscale(100%); /* New WebKit */
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%); /* Not yet supported in Gecko, Opera or IE */
+    filter: url(resources.svg#desaturate); /* Gecko */
+    filter: gray; /* IE */
+    -webkit-filter: grayscale(1); /* Old WebKit */
+}
+
+.share-icons span:hover {
+    filter: grayscale(0); /* Current draft standard */
+    -webkit-filter: grayscale(0); /* New WebKit */
+    -moz-filter: grayscale(0);
+    -ms-filter: grayscale(0);
+    -o-filter: grayscale(0); /* Not yet supported in Gecko, Opera or IE */
+    filter: inherit; /* Gecko, IE */
+    -webkit-filter: grayscale(0); /* Old WebKit */
+    transition: all 0.3s;
+}
+
+.share-icons span {
+  display: inline-block;
+  margin: 20px 20px 0 0;
+  width: 100px;
+}
+
+.share-icons i {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.share-icons .twitter {
+  color: #00aced;
+}
+
+.share-icons .twitter i {
+  background-color: #00aced;
+  color: #fff;
+}
+
+.share-icons .facebook {
+  color: #3b5998;
+}
+
+.share-icons .facebook i {
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.share-icons .googleplus {
+  color: #dd4b39;
+}
+
+.share-icons .googleplus i {
+  background-color: #dd4b39;
+  color: #fff;
+}
+
+.share-icons .linkedin {
+  color: #007bb6;
+}
+
+.share-icons .linkedin i {
+  background-color: #007bb6;
+  color: #fff;
+}
+
+.share-icons .email {
+  color: #000;
+}
+
+.share-icons .email i {
+  background-color: #000;
+  color: #fff;
 }

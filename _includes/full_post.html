@@ -1,0 +1,35 @@
+<article class="full_post">
+  <div class="container content-section top-heading">
+    <div class="row">
+      <div class="col-lg-12 col-sm-12 text-center">
+        <h2 class="section-heading">{{ page.title }}</h2>
+        <div class="post_header">
+          <span class="author">
+            <i class="fa fa-user" aria-hidden="true"></i>{{ page.author }}
+          </span>
+          <span class="published">
+            <i class="fa fa-clock-o" aria-hidden="true"></i>
+            {{ page.date | date: "%B %d, %Y" }}
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="post">
+    <div class="container content-section">
+      <div class="row">
+        <div class="col-lg-9">
+          <img class="img-responsive article_title" src="/img/posts/{{ page.title_image }}" alt="{{ page.title_image_alt }}">
+          {{ page.content }}
+        </div>
+        <div class="col-lg-3">
+          {% include sidebar.html %}
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+  {% include share_page.html %}
+  <br><br>
+</article>

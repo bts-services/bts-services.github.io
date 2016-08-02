@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: homepage
 img: audit_preparation.jpg
 category: Services
 title: Financial Statements & Audit Preparation

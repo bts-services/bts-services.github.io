@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: homepage
 img: sage_one.png
 category: Services
 title: Sage One

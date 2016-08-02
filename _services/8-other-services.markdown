@@ -1,11 +1,12 @@
 ---
-layout: default
+layout: homepage
 img: other_services.jpg
 category: Services
 title: Other Services
 description: |
 ---
 <ul>
+    <li>Entrepreneurial workshops</li>
     <li>Financial clean-ups</li>
     <li>Assisting in setting up internal controls</li>
     <li>Assistance in setting budgets </li>

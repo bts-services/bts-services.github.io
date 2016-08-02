@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: homepage
+collection: services
 img: monthly_accounting_services.jpg
 category: Services
 title: Monthly Accounting Services

@@ -1,0 +1,22 @@
+<section id="request_quote">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-sm-12 text-center">
+              <h2 class="section-heading">Request a Quote</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-sm-12">
+                <form id="request_quote_form" method="POST" action="https://mandrillapp.com/api/1.0/messages/send.json" class="question">
+                    <label id="contact_detail_label">Email / Telephone Number</label>
+                    <input id="contact_detail" type="text" class="contact_detail" name="contact_detail" /><br>
+                    <div class="clearfix spacer"></div>
+                    <label>What would you like to know?</label>
+                    <textarea id="question_content" name="question_content"></textarea>
+                    <div class="clearfix spacer"></div>
+                    <button class="submit">Submit Request</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,42 @@
+<section id="services">
+    <div class="container content-section">
+        <div class="row">
+            <div class="col-lg-12 col-sm-12 text-center">
+              <h2 class="section-heading">Services {{ site.widgets }}</h2>
+            </div>
+        </div>
+    </div>
+    <!-- Page Content -->
+    {% for service in site.services %}
+      {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+        {% if thecycle == 'odd' %}
+            <div class="content-section-a">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 col-sm-6">
+                            <h3 class="section-heading">{{ service.title }}</h3>
+                            <div class="lead">{{ service.content }}</div>
+                        </div>
+                        <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                            <img class="img-responsive" src="img/services/{{ service.img }}" alt="">
+                        </div>
+                    </div>
+                </div><!-- /.container -->
+            </div><!-- /.content-section-a -->
+        {% else %}
+            <div class="content-section-b">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                            <h3 class="section-heading">{{ service.title }}</h3>
+                            <div class="lead">{{ service.content }}</div>
+                        </div>
+                        <div class="col-lg-5 col-sm-pull-6 col-sm-6">
+                          <img class="img-responsive" src="img/services/{{ service.img }}" alt="">
+                        </div>
+                    </div>
+                </div><!-- /.container -->
+            </div><!-- /.content-section-b -->
+        {% endif %}
+    {% endfor %}
+</section>

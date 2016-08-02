@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: homepage
 img: cipc.jpg
 category: Services
 title: Companies and Intellectual Properties Commission (CIPC) Services

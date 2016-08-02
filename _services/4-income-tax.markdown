@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: homepage
 img: tax_return.jpg
 category: Services
 title: Income Tax

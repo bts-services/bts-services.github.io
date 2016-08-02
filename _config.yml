@@ -11,6 +11,7 @@ description: > # "BTS Accounting and Consulting Services aims to provide
     companies in the Cape Town and Surrounds area.
 copyright: 'Copyright &copy; 2015 BTS Accounting and Consulting Services. All Rights Reserved.'
 credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
+twitter_username: bts-services
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -18,5 +19,9 @@ credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme cr
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /blog/:title.html
 encoding: UTF-8
+
+collections:
+  - posts
+  - services
