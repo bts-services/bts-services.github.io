@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Entrepreneurship in the Western Cape - The DA’s Manifesto
+web-title: Entrepreneurship in the Western Cape - The DA’s Manifesto | BTS Accounting and Consulting Services
+description: Interview with Garreth Bloor on the state of entrepreneurship in the Western Cape, South Africa
 date: 2016-08-01 13:00:00
 author: Terri-Ann Davids
 title_image: garreth-bloor/garreth-bloor-crop.jpg
