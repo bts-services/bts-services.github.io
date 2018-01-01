@@ -543,3 +543,7 @@ article button {
   background-color: #000;
   color: #fff;
 }
+
+.slim_header_spacer {
+  height: 40px;
+}
